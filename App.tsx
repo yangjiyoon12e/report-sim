@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ArticleEditor from './components/ArticleEditor';
-import SimulationDashboard from './components/SimulationDashboard';
+import SimulationDashboard from './SimulationDashboard';
 import { Article, INITIAL_ARTICLE, SimulationResult } from './types';
 import { analyzeArticle } from './services/geminiService';
 
