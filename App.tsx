@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ArticleEditor from './components/ArticleEditor';
+import ArticleEditor from './ArticleEditor';
 import SimulationDashboard from './SimulationDashboard';
 import { Article, INITIAL_ARTICLE, SimulationResult } from './types';
 import { analyzeArticle } from './services/geminiService';
